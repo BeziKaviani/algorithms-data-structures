@@ -41,40 +41,40 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/Admin/Desktop/Code$ sheet/algorithms$ and$ data$ structures/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target algorithms_and_data_structures
+# Object build statements for EXECUTABLE target arrays
 
 
 #############################################
-# Order-only phony target for algorithms_and_data_structures
+# Order-only phony target for arrays
 
-build cmake_object_order_depends_target_algorithms_and_data_structures: phony || CMakeFiles/algorithms_and_data_structures.dir
+build cmake_object_order_depends_target_arrays: phony || CMakeFiles/arrays.dir
 
-build CMakeFiles/algorithms_and_data_structures.dir/main.cpp.obj: CXX_COMPILER__algorithms_and_data_structures_Debug C$:/Users/Admin/Desktop/Code$ sheet/algorithms$ and$ data$ structures/main.cpp || cmake_object_order_depends_target_algorithms_and_data_structures
-  DEP_FILE = CMakeFiles\algorithms_and_data_structures.dir\main.cpp.obj.d
+build CMakeFiles/arrays.dir/data-structures/arrays/main.cpp.obj: CXX_COMPILER__arrays_Debug C$:/Users/Admin/Desktop/Code$ sheet/algorithms$ and$ data$ structures/data-structures/arrays/main.cpp || cmake_object_order_depends_target_arrays
+  DEP_FILE = CMakeFiles\arrays.dir\data-structures\arrays\main.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  OBJECT_DIR = CMakeFiles\algorithms_and_data_structures.dir
-  OBJECT_FILE_DIR = CMakeFiles\algorithms_and_data_structures.dir
-  TARGET_COMPILE_PDB = CMakeFiles\algorithms_and_data_structures.dir\
-  TARGET_PDB = algorithms_and_data_structures.pdb
+  OBJECT_DIR = CMakeFiles\arrays.dir
+  OBJECT_FILE_DIR = CMakeFiles\arrays.dir\data-structures\arrays
+  TARGET_COMPILE_PDB = CMakeFiles\arrays.dir\
+  TARGET_PDB = arrays.pdb
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target algorithms_and_data_structures
+# Link build statements for EXECUTABLE target arrays
 
 
 #############################################
-# Link the executable algorithms_and_data_structures.exe
+# Link the executable arrays.exe
 
-build algorithms_and_data_structures.exe: CXX_EXECUTABLE_LINKER__algorithms_and_data_structures_Debug CMakeFiles/algorithms_and_data_structures.dir/main.cpp.obj
+build arrays.exe: CXX_EXECUTABLE_LINKER__arrays_Debug CMakeFiles/arrays.dir/data-structures/arrays/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\algorithms_and_data_structures.dir
+  OBJECT_DIR = CMakeFiles\arrays.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\algorithms_and_data_structures.dir\
-  TARGET_FILE = algorithms_and_data_structures.exe
-  TARGET_IMPLIB = libalgorithms_and_data_structures.dll.a
-  TARGET_PDB = algorithms_and_data_structures.pdb
+  TARGET_COMPILE_PDB = CMakeFiles\arrays.dir\
+  TARGET_FILE = arrays.exe
+  TARGET_IMPLIB = libarrays.dll.a
+  TARGET_PDB = arrays.pdb
 
 
 #############################################
@@ -102,7 +102,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build algorithms_and_data_structures: phony algorithms_and_data_structures.exe
+build arrays: phony arrays.exe
 
 # =============================================================================
 # Folder targets.
@@ -112,7 +112,7 @@ build algorithms_and_data_structures: phony algorithms_and_data_structures.exe
 #############################################
 # Folder: C:/Users/Admin/Desktop/Code sheet/algorithms and data structures/cmake-build-debug
 
-build all: phony algorithms_and_data_structures.exe
+build all: phony arrays.exe
 
 # =============================================================================
 # Built-in targets
