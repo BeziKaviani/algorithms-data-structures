@@ -4,8 +4,6 @@
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-orange)
 ![Contributions](https://img.shields.io/badge/contributions-welcome-ff69b4)
-![Last Update](https://img.shields.io/github/last-commit/USERNAME/data-structures-algorithms?color=yellow)
-
 ---
 
 ## 📚 Overview
@@ -94,12 +92,6 @@ You’re free to use, modify, and share it as long as proper credit is given.
 See the LICENSE
 file for details.
 
----
-
-##💡 Tip
-
-“The best way to master algorithms is to implement them.”
-Start coding, test edge cases, and measure performance! ⚡
 ---
 
 ##⭐ Support
