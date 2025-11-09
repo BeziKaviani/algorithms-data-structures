@@ -41,6 +41,39 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/Admin/Desktop/Code$ sheet/algorithms$ and$ data$ structures/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target 2-Stacks
+
+
+#############################################
+# Order-only phony target for 2-Stacks
+
+build cmake_object_order_depends_target_2-Stacks: phony || CMakeFiles/2-Stacks.dir
+
+build CMakeFiles/2-Stacks.dir/data-structures/2-Stacks/main.cpp.obj: CXX_COMPILER__2-Stacks_Debug C$:/Users/Admin/Desktop/Code$ sheet/algorithms$ and$ data$ structures/data-structures/2-Stacks/main.cpp || cmake_object_order_depends_target_2-Stacks
+  DEP_FILE = CMakeFiles\2-Stacks.dir\data-structures\2-Stacks\main.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\2-Stacks.dir
+  OBJECT_FILE_DIR = CMakeFiles\2-Stacks.dir\data-structures\2-Stacks
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2-Stacks
+
+
+#############################################
+# Link the executable 2-Stacks.exe
+
+build 2-Stacks.exe: CXX_EXECUTABLE_LINKER__2-Stacks_Debug CMakeFiles/2-Stacks.dir/data-structures/2-Stacks/main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\2-Stacks.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2-Stacks.exe
+  TARGET_IMPLIB = lib2-Stacks.dll.a
+  TARGET_PDB = 2-Stacks.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 1-Arrays
 
 
@@ -55,12 +88,6 @@ build CMakeFiles/1-Arrays.dir/data-structures/1-Arrays/main.cpp.obj: CXX_COMPILE
   OBJECT_DIR = CMakeFiles\1-Arrays.dir
   OBJECT_FILE_DIR = CMakeFiles\1-Arrays.dir\data-structures\1-Arrays
 
-build CMakeFiles/1-Arrays.dir/data-structures/2-Stacks/main.cpp.obj: CXX_COMPILER__1-Arrays_Debug C$:/Users/Admin/Desktop/Code$ sheet/algorithms$ and$ data$ structures/data-structures/2-Stacks/main.cpp || cmake_object_order_depends_target_1-Arrays
-  DEP_FILE = CMakeFiles\1-Arrays.dir\data-structures\2-Stacks\main.cpp.obj.d
-  FLAGS = -g -std=gnu++20
-  OBJECT_DIR = CMakeFiles\1-Arrays.dir
-  OBJECT_FILE_DIR = CMakeFiles\1-Arrays.dir\data-structures\2-Stacks
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 1-Arrays
@@ -69,7 +96,7 @@ build CMakeFiles/1-Arrays.dir/data-structures/2-Stacks/main.cpp.obj: CXX_COMPILE
 #############################################
 # Link the executable 1-Arrays.exe
 
-build 1-Arrays.exe: CXX_EXECUTABLE_LINKER__1-Arrays_Debug CMakeFiles/1-Arrays.dir/data-structures/1-Arrays/main.cpp.obj CMakeFiles/1-Arrays.dir/data-structures/2-Stacks/main.cpp.obj
+build 1-Arrays.exe: CXX_EXECUTABLE_LINKER__1-Arrays_Debug CMakeFiles/1-Arrays.dir/data-structures/1-Arrays/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\1-Arrays.dir
@@ -107,6 +134,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build 1-Arrays: phony 1-Arrays.exe
 
+build 2-Stacks: phony 2-Stacks.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -115,7 +144,7 @@ build 1-Arrays: phony 1-Arrays.exe
 #############################################
 # Folder: C:/Users/Admin/Desktop/Code sheet/algorithms and data structures/cmake-build-debug
 
-build all: phony 1-Arrays.exe
+build all: phony 2-Stacks.exe 1-Arrays.exe
 
 # =============================================================================
 # Built-in targets
