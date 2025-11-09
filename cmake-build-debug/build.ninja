@@ -41,6 +41,39 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/Admin/Desktop/Code$ sheet/algorithms$ and$ data$ structures/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target 3-Queues
+
+
+#############################################
+# Order-only phony target for 3-Queues
+
+build cmake_object_order_depends_target_3-Queues: phony || CMakeFiles/3-Queues.dir
+
+build CMakeFiles/3-Queues.dir/data-structures/2-Stacks/main.cpp.obj: CXX_COMPILER__3-Queues_Debug C$:/Users/Admin/Desktop/Code$ sheet/algorithms$ and$ data$ structures/data-structures/2-Stacks/main.cpp || cmake_object_order_depends_target_3-Queues
+  DEP_FILE = CMakeFiles\3-Queues.dir\data-structures\2-Stacks\main.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\3-Queues.dir
+  OBJECT_FILE_DIR = CMakeFiles\3-Queues.dir\data-structures\2-Stacks
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3-Queues
+
+
+#############################################
+# Link the executable 3-Queues.exe
+
+build 3-Queues.exe: CXX_EXECUTABLE_LINKER__3-Queues_Debug CMakeFiles/3-Queues.dir/data-structures/2-Stacks/main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\3-Queues.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 3-Queues.exe
+  TARGET_IMPLIB = lib3-Queues.dll.a
+  TARGET_PDB = 3-Queues.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 2-Stacks
 
 
@@ -136,6 +169,8 @@ build 1-Arrays: phony 1-Arrays.exe
 
 build 2-Stacks: phony 2-Stacks.exe
 
+build 3-Queues: phony 3-Queues.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -144,7 +179,7 @@ build 2-Stacks: phony 2-Stacks.exe
 #############################################
 # Folder: C:/Users/Admin/Desktop/Code sheet/algorithms and data structures/cmake-build-debug
 
-build all: phony 2-Stacks.exe 1-Arrays.exe
+build all: phony 3-Queues.exe 2-Stacks.exe 1-Arrays.exe
 
 # =============================================================================
 # Built-in targets

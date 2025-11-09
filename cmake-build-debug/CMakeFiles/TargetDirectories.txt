@@ -1,3 +1,4 @@
+C:/Users/Admin/Desktop/Code sheet/algorithms and data structures/cmake-build-debug/CMakeFiles/3-Queues.dir
 C:/Users/Admin/Desktop/Code sheet/algorithms and data structures/cmake-build-debug/CMakeFiles/2-Stacks.dir
 C:/Users/Admin/Desktop/Code sheet/algorithms and data structures/cmake-build-debug/CMakeFiles/1-Arrays.dir
 C:/Users/Admin/Desktop/Code sheet/algorithms and data structures/cmake-build-debug/CMakeFiles/edit_cache.dir

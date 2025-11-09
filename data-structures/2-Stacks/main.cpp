@@ -28,5 +28,6 @@ int main(){
 //    You can see if the stack is empty by using empty method
     cout<<fruits.empty()<<endl;
 
+    //  For other explanations you can check the notes folder
     return 0;
 }

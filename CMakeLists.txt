@@ -9,3 +9,6 @@ add_executable(1-Arrays
 add_executable(2-Stacks
         data-structures/2-Stacks/main.cpp)
 
+add_executable(3-Queues
+        data-structures/2-Stacks/main.cpp)
+
