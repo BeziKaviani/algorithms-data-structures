@@ -41,43 +41,43 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/Admin/Desktop/Code$ sheet/algorithms$ and$ data$ structures/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target arrays
+# Object build statements for EXECUTABLE target 1-Arrays
 
 
 #############################################
-# Order-only phony target for arrays
+# Order-only phony target for 1-Arrays
 
-build cmake_object_order_depends_target_arrays: phony || CMakeFiles/arrays.dir
+build cmake_object_order_depends_target_1-Arrays: phony || CMakeFiles/1-Arrays.dir
 
-build CMakeFiles/arrays.dir/data-structures/arrays/main.cpp.obj: CXX_COMPILER__arrays_Debug C$:/Users/Admin/Desktop/Code$ sheet/algorithms$ and$ data$ structures/data-structures/arrays/main.cpp || cmake_object_order_depends_target_arrays
-  DEP_FILE = CMakeFiles\arrays.dir\data-structures\arrays\main.cpp.obj.d
+build CMakeFiles/1-Arrays.dir/data-structures/1-Arrays/main.cpp.obj: CXX_COMPILER__1-Arrays_Debug C$:/Users/Admin/Desktop/Code$ sheet/algorithms$ and$ data$ structures/data-structures/1-Arrays/main.cpp || cmake_object_order_depends_target_1-Arrays
+  DEP_FILE = CMakeFiles\1-Arrays.dir\data-structures\1-Arrays\main.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  OBJECT_DIR = CMakeFiles\arrays.dir
-  OBJECT_FILE_DIR = CMakeFiles\arrays.dir\data-structures\arrays
+  OBJECT_DIR = CMakeFiles\1-Arrays.dir
+  OBJECT_FILE_DIR = CMakeFiles\1-Arrays.dir\data-structures\1-Arrays
 
-build CMakeFiles/arrays.dir/data-structures/stacks/main.cpp.obj: CXX_COMPILER__arrays_Debug C$:/Users/Admin/Desktop/Code$ sheet/algorithms$ and$ data$ structures/data-structures/stacks/main.cpp || cmake_object_order_depends_target_arrays
-  DEP_FILE = CMakeFiles\arrays.dir\data-structures\stacks\main.cpp.obj.d
+build CMakeFiles/1-Arrays.dir/data-structures/2-Stacks/main.cpp.obj: CXX_COMPILER__1-Arrays_Debug C$:/Users/Admin/Desktop/Code$ sheet/algorithms$ and$ data$ structures/data-structures/2-Stacks/main.cpp || cmake_object_order_depends_target_1-Arrays
+  DEP_FILE = CMakeFiles\1-Arrays.dir\data-structures\2-Stacks\main.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  OBJECT_DIR = CMakeFiles\arrays.dir
-  OBJECT_FILE_DIR = CMakeFiles\arrays.dir\data-structures\stacks
+  OBJECT_DIR = CMakeFiles\1-Arrays.dir
+  OBJECT_FILE_DIR = CMakeFiles\1-Arrays.dir\data-structures\2-Stacks
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target arrays
+# Link build statements for EXECUTABLE target 1-Arrays
 
 
 #############################################
-# Link the executable arrays.exe
+# Link the executable 1-Arrays.exe
 
-build arrays.exe: CXX_EXECUTABLE_LINKER__arrays_Debug CMakeFiles/arrays.dir/data-structures/arrays/main.cpp.obj CMakeFiles/arrays.dir/data-structures/stacks/main.cpp.obj
+build 1-Arrays.exe: CXX_EXECUTABLE_LINKER__1-Arrays_Debug CMakeFiles/1-Arrays.dir/data-structures/1-Arrays/main.cpp.obj CMakeFiles/1-Arrays.dir/data-structures/2-Stacks/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\arrays.dir
+  OBJECT_DIR = CMakeFiles\1-Arrays.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = arrays.exe
-  TARGET_IMPLIB = libarrays.dll.a
-  TARGET_PDB = arrays.exe.dbg
+  TARGET_FILE = 1-Arrays.exe
+  TARGET_IMPLIB = lib1-Arrays.dll.a
+  TARGET_PDB = 1-Arrays.exe.dbg
 
 
 #############################################
@@ -105,7 +105,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build arrays: phony arrays.exe
+build 1-Arrays: phony 1-Arrays.exe
 
 # =============================================================================
 # Folder targets.
@@ -115,7 +115,7 @@ build arrays: phony arrays.exe
 #############################################
 # Folder: C:/Users/Admin/Desktop/Code sheet/algorithms and data structures/cmake-build-debug
 
-build all: phony arrays.exe
+build all: phony 1-Arrays.exe
 
 # =============================================================================
 # Built-in targets

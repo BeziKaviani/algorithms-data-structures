@@ -1,3 +1,22 @@
 # ninja log v5
 4	556	7842528829224172	CMakeFiles/arrays.dir/data-structures/arrays/main.cpp.obj	5b20147f932743c0
+4	240	7844209587687778	CMakeFiles/arrays.dir/data-structures/2-Stacks/main.cpp.obj	7adf97edf2a23e30
 556	653	7842528830163766	arrays.exe	41db5391c82dabc2
+9	267	7844211083453960	build.ninja	3203a8b5f99d8620
+4	56	7844211158820381	CMakeFiles/1-Arrays.dir/data-structures/2-Stacks/main.cpp.obj	d7f5068652cffcef
+1	584	7844211319368390	CMakeFiles/1-Arrays.dir/data-structures/1-Arrays/main.cpp.obj	d9b63f52cb1df9e5
+585	762	7844211321113112	1-Arrays.exe	d389aeaec8cc2570
+2	517	7844211564792325	CMakeFiles/1-Arrays.dir/data-structures/1-Arrays/main.cpp.obj	d9b63f52cb1df9e5
+517	657	7844211566144804	1-Arrays.exe	d389aeaec8cc2570
+3	582	7844212122472638	CMakeFiles/1-Arrays.dir/data-structures/1-Arrays/main.cpp.obj	d9b63f52cb1df9e5
+582	697	7844212123571991	1-Arrays.exe	d389aeaec8cc2570
+3	525	7844212239053259	CMakeFiles/1-Arrays.dir/data-structures/1-Arrays/main.cpp.obj	d9b63f52cb1df9e5
+525	631	7844212240056411	1-Arrays.exe	d389aeaec8cc2570
+3	561	7844213105731320	CMakeFiles/1-Arrays.dir/data-structures/1-Arrays/main.cpp.obj	d9b63f52cb1df9e5
+561	664	7844213106720478	1-Arrays.exe	d389aeaec8cc2570
+3	523	7844214193879214	CMakeFiles/1-Arrays.dir/data-structures/1-Arrays/main.cpp.obj	d9b63f52cb1df9e5
+523	629	7844214194892706	1-Arrays.exe	d389aeaec8cc2570
+3	541	7844214950480527	CMakeFiles/1-Arrays.dir/data-structures/1-Arrays/main.cpp.obj	d9b63f52cb1df9e5
+542	668	7844214951700413	1-Arrays.exe	d389aeaec8cc2570
+3	605	7844218500207800	CMakeFiles/1-Arrays.dir/data-structures/1-Arrays/main.cpp.obj	d9b63f52cb1df9e5
+605	736	7844218501489085	1-Arrays.exe	d389aeaec8cc2570
