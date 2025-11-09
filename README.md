@@ -94,7 +94,7 @@ file for details.
 
 ---
 
-##⭐ Support
+## ⭐ Support
 
 If you find this repository helpful, please star ⭐ it to support the project!
 Your stars motivate further updates and new algorithm implementations. 🚀
