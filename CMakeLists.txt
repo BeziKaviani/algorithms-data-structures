@@ -4,6 +4,6 @@ project(algorithms_and_data_structures)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(arrays
-        data-structures/arrays/main.cpp
-        data-structures/stacks/main.cpp)
+        data-structures/1-Arrays/main.cpp
+        data-structures/2-Stacks/main.cpp)
 
