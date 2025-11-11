@@ -10,5 +10,5 @@ add_executable(2-Stacks
         data-structures/2-Stacks/main.cpp)
 
 add_executable(3-Queues
-        data-structures/2-Stacks/main.cpp)
+        data-structures/3-Queues/main.cpp)
 
