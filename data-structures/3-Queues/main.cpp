@@ -31,5 +31,7 @@ int main(){
 
 //    You can check if the queue is empty by using empty method
     cout<<orders.empty()<<endl;
+
+    //  For other explanations you can check the notes folder
     return 0;
 }
