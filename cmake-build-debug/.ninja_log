@@ -3,7 +3,7 @@
 4	240	7844209587687778	CMakeFiles/arrays.dir/data-structures/2-Stacks/main.cpp.obj	7adf97edf2a23e30
 4	556	7842528829224172	CMakeFiles/arrays.dir/data-structures/arrays/main.cpp.obj	5b20147f932743c0
 556	653	7842528830163766	arrays.exe	41db5391c82dabc2
-0	195	7846637051831808	build.ninja	3203a8b5f99d8620
+0	195	7850221670545135	build.ninja	3203a8b5f99d8620
 3	529	7844259977250027	CMakeFiles/1-Arrays.dir/data-structures/2-Stacks/main.cpp.obj	d7f5068652cffcef
 3	113	7844260388779668	1-Arrays.exe	2bc28807a8d12841
 2	733	7844270510202180	CMakeFiles/2-Stacks.dir/data-structures/2-Stacks/main.cpp.obj	c758b375a18ef348
@@ -11,3 +11,8 @@
 0	990	7845803263069974	CMakeFiles/3-Queues.dir/data-structures/2-Stacks/main.cpp.obj	9946dcbfdc827a2b
 845	955	7845808593553719	3-Queues.exe	5e8e0cb505404044
 2	844	7845808592479839	CMakeFiles/3-Queues.dir/data-structures/3-Queues/main.cpp.obj	fd35b0255feaad93
+0	86	7850220789534666	CMakeFiles/4-Priority_queues.dir/data-structures/4-Priority_queues/main.cpp.obj	f016c4ce5e145e3e
+0	733	7850222588381045	CMakeFiles/4-Priority_queues.dir/data-structures/4-Priority_queues/main.cpp.obj	f016c4ce5e145e3e
+733	825	7850222589262855	4-Priority_queues.exe	b6e82525d2b22691
+2	737	7850229438016537	CMakeFiles/4-Priority_queues.dir/data-structures/4-Priority_queues/main.cpp.obj	f016c4ce5e145e3e
+738	843	7850229439014715	4-Priority_queues.exe	b6e82525d2b22691

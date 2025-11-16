@@ -139,6 +139,39 @@ build 1-Arrays.exe: CXX_EXECUTABLE_LINKER__1-Arrays_Debug CMakeFiles/1-Arrays.di
   TARGET_IMPLIB = lib1-Arrays.dll.a
   TARGET_PDB = 1-Arrays.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 4-Priority_queues
+
+
+#############################################
+# Order-only phony target for 4-Priority_queues
+
+build cmake_object_order_depends_target_4-Priority_queues: phony || CMakeFiles/4-Priority_queues.dir
+
+build CMakeFiles/4-Priority_queues.dir/data-structures/4-Priority_queues/main.cpp.obj: CXX_COMPILER__4-Priority_queues_Debug C$:/Users/Admin/Desktop/Code$ sheet/algorithms$ and$ data$ structures/data-structures/4-Priority_queues/main.cpp || cmake_object_order_depends_target_4-Priority_queues
+  DEP_FILE = CMakeFiles\4-Priority_queues.dir\data-structures\4-Priority_queues\main.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\4-Priority_queues.dir
+  OBJECT_FILE_DIR = CMakeFiles\4-Priority_queues.dir\data-structures\4-Priority_queues
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 4-Priority_queues
+
+
+#############################################
+# Link the executable 4-Priority_queues.exe
+
+build 4-Priority_queues.exe: CXX_EXECUTABLE_LINKER__4-Priority_queues_Debug CMakeFiles/4-Priority_queues.dir/data-structures/4-Priority_queues/main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\4-Priority_queues.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 4-Priority_queues.exe
+  TARGET_IMPLIB = lib4-Priority_queues.dll.a
+  TARGET_PDB = 4-Priority_queues.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -171,6 +204,8 @@ build 2-Stacks: phony 2-Stacks.exe
 
 build 3-Queues: phony 3-Queues.exe
 
+build 4-Priority_queues: phony 4-Priority_queues.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -179,7 +214,7 @@ build 3-Queues: phony 3-Queues.exe
 #############################################
 # Folder: C:/Users/Admin/Desktop/Code sheet/algorithms and data structures/cmake-build-debug
 
-build all: phony 3-Queues.exe 2-Stacks.exe 1-Arrays.exe
+build all: phony 3-Queues.exe 2-Stacks.exe 1-Arrays.exe 4-Priority_queues.exe
 
 # =============================================================================
 # Built-in targets
