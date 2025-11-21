@@ -15,28 +15,35 @@ struct node {
     node *next;
 
 //  Functions
-    int size(node first){
-
+    static int size(node *first){
+        int count = 0;
+        node *p;
+        p = first;
+        while(p->next != nullptr){
+            p = p->next;
+            count ++;
+        }
+        return count;
     }
 
 
-    static void add(node *first,int data, int index = 1){
+    static void add(node *first,int data, int target = 1){
         node *p{};
         p = new node;
         p->data = data;
 
-        if (index == 1){
+        if (target == 1){
             p->next = first->next;
             first = p;
         }
+
+        if (target == size(first)){
+            while ()
+
+        }
     }
-} first;
-
-
-
-
+} ;
 int main(){
-//  We have created a fibonacci series with linked lists
 
     return 0;
 }
