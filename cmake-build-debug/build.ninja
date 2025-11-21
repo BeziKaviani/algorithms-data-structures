@@ -140,6 +140,39 @@ build 1-Arrays.exe: CXX_EXECUTABLE_LINKER__1-Arrays_Debug CMakeFiles/1-Arrays.di
   TARGET_PDB = 1-Arrays.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 5-Singly_linked_lists
+
+
+#############################################
+# Order-only phony target for 5-Singly_linked_lists
+
+build cmake_object_order_depends_target_5-Singly_linked_lists: phony || CMakeFiles/5-Singly_linked_lists.dir
+
+build CMakeFiles/5-Singly_linked_lists.dir/data-structures/5-Singly_linked_lists/main.cpp.obj: CXX_COMPILER__5-Singly_linked_lists_Debug C$:/Users/Admin/Desktop/Code$ sheet/algorithms$ and$ data$ structures/data-structures/5-Singly_linked_lists/main.cpp || cmake_object_order_depends_target_5-Singly_linked_lists
+  DEP_FILE = CMakeFiles\5-Singly_linked_lists.dir\data-structures\5-Singly_linked_lists\main.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\5-Singly_linked_lists.dir
+  OBJECT_FILE_DIR = CMakeFiles\5-Singly_linked_lists.dir\data-structures\5-Singly_linked_lists
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 5-Singly_linked_lists
+
+
+#############################################
+# Link the executable 5-Singly_linked_lists.exe
+
+build 5-Singly_linked_lists.exe: CXX_EXECUTABLE_LINKER__5-Singly_linked_lists_Debug CMakeFiles/5-Singly_linked_lists.dir/data-structures/5-Singly_linked_lists/main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\5-Singly_linked_lists.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5-Singly_linked_lists.exe
+  TARGET_IMPLIB = lib5-Singly_linked_lists.dll.a
+  TARGET_PDB = 5-Singly_linked_lists.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 4-Priority_queues
 
 
@@ -206,6 +239,8 @@ build 3-Queues: phony 3-Queues.exe
 
 build 4-Priority_queues: phony 4-Priority_queues.exe
 
+build 5-Singly_linked_lists: phony 5-Singly_linked_lists.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -214,7 +249,7 @@ build 4-Priority_queues: phony 4-Priority_queues.exe
 #############################################
 # Folder: C:/Users/Admin/Desktop/Code sheet/algorithms and data structures/cmake-build-debug
 
-build all: phony 3-Queues.exe 2-Stacks.exe 1-Arrays.exe 4-Priority_queues.exe
+build all: phony 3-Queues.exe 2-Stacks.exe 1-Arrays.exe 5-Singly_linked_lists.exe 4-Priority_queues.exe
 
 # =============================================================================
 # Built-in targets

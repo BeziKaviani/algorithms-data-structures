@@ -1,6 +1,7 @@
 C:/Users/Admin/Desktop/Code sheet/algorithms and data structures/cmake-build-debug/CMakeFiles/3-Queues.dir
 C:/Users/Admin/Desktop/Code sheet/algorithms and data structures/cmake-build-debug/CMakeFiles/2-Stacks.dir
 C:/Users/Admin/Desktop/Code sheet/algorithms and data structures/cmake-build-debug/CMakeFiles/1-Arrays.dir
+C:/Users/Admin/Desktop/Code sheet/algorithms and data structures/cmake-build-debug/CMakeFiles/5-Singly_linked_lists.dir
 C:/Users/Admin/Desktop/Code sheet/algorithms and data structures/cmake-build-debug/CMakeFiles/4-Priority_queues.dir
 C:/Users/Admin/Desktop/Code sheet/algorithms and data structures/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Admin/Desktop/Code sheet/algorithms and data structures/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -15,3 +15,6 @@ add_executable(3-Queues
 add_executable(4-Priority_queues
         data-structures/4-Priority_queues/main.cpp)
 
+add_executable(5-Singly_linked_lists
+        data-structures/5-Singly_linked_lists/main.cpp)
+
