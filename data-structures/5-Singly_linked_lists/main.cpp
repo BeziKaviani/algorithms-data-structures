@@ -15,6 +15,7 @@ struct node {
     node *next;
 
 //  Functions
+
     static int size(node *first){
         int count = 0;
         node *p;
@@ -28,18 +29,24 @@ struct node {
 
 
     static void add(node *first,int data, int target = 1){
-        node *p{};
+        node *p;
+        node *q;
         p = new node;
+        q = first;
         p->data = data;
+        p->next = nullptr;
 
         if (target == 1){
             p->next = first->next;
             first = p;
         }
-
-        if (target == size(first)){
+        else if (target == size(first)){
+            while (q->next != nullptr){
+                q = q->next;
+            }
+            q->next = p;
+        }else{
             while ()
-
         }
     }
 } ;

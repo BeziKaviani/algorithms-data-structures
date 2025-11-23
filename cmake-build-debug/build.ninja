@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/Admin/Desktop/Code$ sheet/algorithms$ and$ data$ structures/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/Admin/Desktop/Code$ sheet/DSA/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target 3-Queues
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = C$:/Users/Admin/Desktop/Code$ sheet/algorithms$ and$ data$
 
 build cmake_object_order_depends_target_3-Queues: phony || CMakeFiles/3-Queues.dir
 
-build CMakeFiles/3-Queues.dir/data-structures/3-Queues/main.cpp.obj: CXX_COMPILER__3-Queues_Debug C$:/Users/Admin/Desktop/Code$ sheet/algorithms$ and$ data$ structures/data-structures/3-Queues/main.cpp || cmake_object_order_depends_target_3-Queues
+build CMakeFiles/3-Queues.dir/data-structures/3-Queues/main.cpp.obj: CXX_COMPILER__3-Queues_Debug C$:/Users/Admin/Desktop/Code$ sheet/DSA/data-structures/3-Queues/main.cpp || cmake_object_order_depends_target_3-Queues
   DEP_FILE = CMakeFiles\3-Queues.dir\data-structures\3-Queues\main.cpp.obj.d
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles\3-Queues.dir
@@ -82,7 +82,7 @@ build 3-Queues.exe: CXX_EXECUTABLE_LINKER__3-Queues_Debug CMakeFiles/3-Queues.di
 
 build cmake_object_order_depends_target_2-Stacks: phony || CMakeFiles/2-Stacks.dir
 
-build CMakeFiles/2-Stacks.dir/data-structures/2-Stacks/main.cpp.obj: CXX_COMPILER__2-Stacks_Debug C$:/Users/Admin/Desktop/Code$ sheet/algorithms$ and$ data$ structures/data-structures/2-Stacks/main.cpp || cmake_object_order_depends_target_2-Stacks
+build CMakeFiles/2-Stacks.dir/data-structures/2-Stacks/main.cpp.obj: CXX_COMPILER__2-Stacks_Debug C$:/Users/Admin/Desktop/Code$ sheet/DSA/data-structures/2-Stacks/main.cpp || cmake_object_order_depends_target_2-Stacks
   DEP_FILE = CMakeFiles\2-Stacks.dir\data-structures\2-Stacks\main.cpp.obj.d
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles\2-Stacks.dir
@@ -115,7 +115,7 @@ build 2-Stacks.exe: CXX_EXECUTABLE_LINKER__2-Stacks_Debug CMakeFiles/2-Stacks.di
 
 build cmake_object_order_depends_target_1-Arrays: phony || CMakeFiles/1-Arrays.dir
 
-build CMakeFiles/1-Arrays.dir/data-structures/1-Arrays/main.cpp.obj: CXX_COMPILER__1-Arrays_Debug C$:/Users/Admin/Desktop/Code$ sheet/algorithms$ and$ data$ structures/data-structures/1-Arrays/main.cpp || cmake_object_order_depends_target_1-Arrays
+build CMakeFiles/1-Arrays.dir/data-structures/1-Arrays/main.cpp.obj: CXX_COMPILER__1-Arrays_Debug C$:/Users/Admin/Desktop/Code$ sheet/DSA/data-structures/1-Arrays/main.cpp || cmake_object_order_depends_target_1-Arrays
   DEP_FILE = CMakeFiles\1-Arrays.dir\data-structures\1-Arrays\main.cpp.obj.d
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles\1-Arrays.dir
@@ -148,7 +148,7 @@ build 1-Arrays.exe: CXX_EXECUTABLE_LINKER__1-Arrays_Debug CMakeFiles/1-Arrays.di
 
 build cmake_object_order_depends_target_5-Singly_linked_lists: phony || CMakeFiles/5-Singly_linked_lists.dir
 
-build CMakeFiles/5-Singly_linked_lists.dir/data-structures/5-Singly_linked_lists/main.cpp.obj: CXX_COMPILER__5-Singly_linked_lists_Debug C$:/Users/Admin/Desktop/Code$ sheet/algorithms$ and$ data$ structures/data-structures/5-Singly_linked_lists/main.cpp || cmake_object_order_depends_target_5-Singly_linked_lists
+build CMakeFiles/5-Singly_linked_lists.dir/data-structures/5-Singly_linked_lists/main.cpp.obj: CXX_COMPILER__5-Singly_linked_lists_Debug C$:/Users/Admin/Desktop/Code$ sheet/DSA/data-structures/5-Singly_linked_lists/main.cpp || cmake_object_order_depends_target_5-Singly_linked_lists
   DEP_FILE = CMakeFiles\5-Singly_linked_lists.dir\data-structures\5-Singly_linked_lists\main.cpp.obj.d
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles\5-Singly_linked_lists.dir
@@ -181,7 +181,7 @@ build 5-Singly_linked_lists.exe: CXX_EXECUTABLE_LINKER__5-Singly_linked_lists_De
 
 build cmake_object_order_depends_target_4-Priority_queues: phony || CMakeFiles/4-Priority_queues.dir
 
-build CMakeFiles/4-Priority_queues.dir/data-structures/4-Priority_queues/main.cpp.obj: CXX_COMPILER__4-Priority_queues_Debug C$:/Users/Admin/Desktop/Code$ sheet/algorithms$ and$ data$ structures/data-structures/4-Priority_queues/main.cpp || cmake_object_order_depends_target_4-Priority_queues
+build CMakeFiles/4-Priority_queues.dir/data-structures/4-Priority_queues/main.cpp.obj: CXX_COMPILER__4-Priority_queues_Debug C$:/Users/Admin/Desktop/Code$ sheet/DSA/data-structures/4-Priority_queues/main.cpp || cmake_object_order_depends_target_4-Priority_queues
   DEP_FILE = CMakeFiles\4-Priority_queues.dir\data-structures\4-Priority_queues\main.cpp.obj.d
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles\4-Priority_queues.dir
@@ -210,7 +210,7 @@ build 4-Priority_queues.exe: CXX_EXECUTABLE_LINKER__4-Priority_queues_Debug CMak
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Admin\Desktop\Code sheet\algorithms and data structures\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Admin\Desktop\Code sheet\DSA\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -221,7 +221,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Admin\Desktop\Code sheet\algorithms and data structures\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Admin\Desktop\Code sheet\algorithms and data structures" -B"C:\Users\Admin\Desktop\Code sheet\algorithms and data structures\cmake-build-debug""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Admin\Desktop\Code sheet\DSA\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Admin\Desktop\Code sheet\DSA" -B"C:\Users\Admin\Desktop\Code sheet\DSA\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -247,7 +247,7 @@ build 5-Singly_linked_lists: phony 5-Singly_linked_lists.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Admin/Desktop/Code sheet/algorithms and data structures/cmake-build-debug
+# Folder: C:/Users/Admin/Desktop/Code sheet/DSA/cmake-build-debug
 
 build all: phony 3-Queues.exe 2-Stacks.exe 1-Arrays.exe 5-Singly_linked_lists.exe 4-Priority_queues.exe
 

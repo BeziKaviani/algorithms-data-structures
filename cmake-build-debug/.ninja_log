@@ -1,15 +1,13 @@
 # ninja log v5
+2	844	7845808592479839	CMakeFiles/3-Queues.dir/data-structures/3-Queues/main.cpp.obj	fd35b0255feaad93
 2	630	7844259713224929	CMakeFiles/1-Arrays.dir/data-structures/1-Arrays/main.cpp.obj	d9b63f52cb1df9e5
-4	240	7844209587687778	CMakeFiles/arrays.dir/data-structures/2-Stacks/main.cpp.obj	7adf97edf2a23e30
-4	556	7842528829224172	CMakeFiles/arrays.dir/data-structures/arrays/main.cpp.obj	5b20147f932743c0
+845	955	7845808593553719	3-Queues.exe	5e8e0cb505404044
 556	653	7842528830163766	arrays.exe	41db5391c82dabc2
-0	195	7854624705929635	build.ninja	3203a8b5f99d8620
-3	529	7844259977250027	CMakeFiles/1-Arrays.dir/data-structures/2-Stacks/main.cpp.obj	d7f5068652cffcef
+0	195	7855907652126932	build.ninja	3203a8b5f99d8620
+733	853	7844270511366251	2-Stacks.exe	8f437f026d3348fe
 3	113	7844260388779668	1-Arrays.exe	2bc28807a8d12841
 2	733	7844270510202180	CMakeFiles/2-Stacks.dir/data-structures/2-Stacks/main.cpp.obj	c758b375a18ef348
-733	853	7844270511366251	2-Stacks.exe	8f437f026d3348fe
-0	990	7845803263069974	CMakeFiles/3-Queues.dir/data-structures/2-Stacks/main.cpp.obj	9946dcbfdc827a2b
-845	955	7845808593553719	3-Queues.exe	5e8e0cb505404044
-2	844	7845808592479839	CMakeFiles/3-Queues.dir/data-structures/3-Queues/main.cpp.obj	fd35b0255feaad93
 3	878	7850240924355496	CMakeFiles/4-Priority_queues.dir/data-structures/4-Priority_queues/main.cpp.obj	f016c4ce5e145e3e
 878	1006	7850240925601163	4-Priority_queues.exe	b6e82525d2b22691
+5	787	7855907832654038	CMakeFiles/1-Arrays.dir/data-structures/1-Arrays/main.cpp.obj	213c1c967d6f9071
+788	930	7855907834023240	1-Arrays.exe	2bc28807a8d12841
