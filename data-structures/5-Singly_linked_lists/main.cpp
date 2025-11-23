@@ -28,9 +28,10 @@ struct node {
     }
 
 
-    static void add(node *first,int data, int target = 1){
+    static void add(node *first,int data, int target = 1, char pos = 'a'){
         node *p;
         node *q;
+        int position = 0;
         p = new node;
         q = first;
         p->data = data;
@@ -39,14 +40,30 @@ struct node {
         if (target == 1){
             p->next = first->next;
             first = p;
+            return;
         }
-        else if (target == size(first)){
-            while (q->next != nullptr){
-                q = q->next;
+
+        else{
+
+//          After the node
+            if(pos == 'a'){
+                while (position != target){
+                    position++;
+                    q = q->next;
+                }
+                q->next = p;
+                return;
             }
-            q->next = p;
-        }else{
-            while ()
+
+//          Before the node
+            else if (pos == 'b'){
+                while (position != target-1){
+                    position++;
+                    q = q->next;
+                }
+                q->next = p;
+                return;
+            }
         }
     }
 } ;
