@@ -18,28 +18,29 @@ struct node {
 
     static int size(node *first){
         int count = 0;
-        node *p;
-        p = first;
-        while(p->next != nullptr){
-            p = p->next;
+        node *current;
+        current = first;
+        while(current != nullptr){
             count ++;
+            current = current->next;
         }
         return count;
     }
 
 
-    static void add(node *first,int data, int target = 1, char pos = 'a'){
-        node *p;
-        node *q;
+    void add(node *&first,int value, int target = 1, char pos = 'a'){
+        node *new_node;
+        node *current;
         int position = 0;
-        p = new node;
-        q = first;
-        p->data = data;
-        p->next = nullptr;
+        new_node = new node;
+        new_node->data = value;
+        current = first;
+        new_node->data = data;
+        new_node->next = nullptr;
 
         if (target == 1){
-            p->next = first->next;
-            first = p;
+            new_node->next = first->next;
+            first = new_node;
             return;
         }
 
@@ -47,11 +48,11 @@ struct node {
 
 //          After the node
             if(pos == 'a'){
-                while (position != target){
+                while (current != nullptr && position < target){
                     position++;
-                    q = q->next;
+                    current = current->next;
                 }
-                q->next = p;
+                current->next = new_node;
                 return;
             }
 
@@ -59,9 +60,9 @@ struct node {
             else if (pos == 'b'){
                 while (position != target-1){
                     position++;
-                    q = q->next;
+                    current = current->next;
                 }
-                q->next = p;
+                current->next = new_node;
                 return;
             }
         }

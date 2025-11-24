@@ -10,11 +10,11 @@ add_executable(2-Stacks
         data-structures/2-Stacks/main.cpp)
 
 add_executable(3-Queues
-        data-structures/3-Queues/main.cpp)
+        "data-structures/3-Queues/normal_queues/main.cpp")
 
 add_executable(4-Priority_queues
-        data-structures/4-Priority_queues/main.cpp)
+        data-structures/3-Queues/priority_queues/main.cpp)
 
 add_executable(5-Singly_linked_lists
-        data-structures/5-Singly_linked_lists/main.cpp)
+        "data-structures/4-Linked lists/singly_linked_lists/main.cpp")
 

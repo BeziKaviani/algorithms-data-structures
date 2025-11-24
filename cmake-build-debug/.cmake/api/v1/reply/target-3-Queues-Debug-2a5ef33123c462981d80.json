@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "5-Singly_linked_lists.exe"
+			"path" : "3-Queues.exe"
 		},
 		{
-			"path" : "5-Singly_linked_lists.pdb"
+			"path" : "3-Queues.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 18,
+				"line" : 12,
 				"parent" : 0
 			}
 		]
@@ -59,7 +59,7 @@
 			]
 		}
 	],
-	"id" : "5-Singly_linked_lists::@6890427a1f51a3e7e1df",
+	"id" : "3-Queues::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -79,8 +79,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "5-Singly_linked_lists",
-	"nameOnDisk" : "5-Singly_linked_lists.exe",
+	"name" : "3-Queues",
+	"nameOnDisk" : "3-Queues.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -101,7 +101,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "data-structures/5-Singly_linked_lists/main.cpp",
+			"path" : "data-structures/3-Queues/normal_queues/main.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
