@@ -27,46 +27,54 @@ struct node {
         return count;
     }
 
-
-    void add(node *&first,int value, int target = 1, char pos = 'a'){
+    static void add(node *&first,int value, int target, char pos = 'a'){
         node *new_node;
         node *current;
+        node *prev;
         int position = 0;
         new_node = new node;
         new_node->data = value;
         current = first;
-        new_node->data = data;
+        new_node->data = value;
         new_node->next = nullptr;
 
-        if (target == 1){
-            new_node->next = first->next;
+        if (first == nullptr){
             first = new_node;
             return;
         }
 
-        else{
-
 //          After the node
-            if(pos == 'a'){
-                while (current != nullptr && position < target){
-                    position++;
-                    current = current->next;
-                }
-                current->next = new_node;
-                return;
+        if (pos == 'a') {
+            while (current != nullptr && position < target) {
+                position++;
+                current = current->next;
             }
+            if (current != nullptr) {
+                new_node->next = current->next;
+                current->next = new_node;
+            }
+            return;
+        }
 
 //          Before the node
-            else if (pos == 'b'){
-                while (position != target-1){
+        else if (pos == 'b') {
+            if (target == 1) {
+                new_node->next = first->next;
+                first = new_node;
+                return;
+            }
+                while (current != nullptr && position < target) {
                     position++;
+                    prev = current;
                     current = current->next;
                 }
-                current->next = new_node;
+                if (current != nullptr) {
+                    prev->next = new_node;
+                    new_node->next = current;
+                }
                 return;
             }
         }
-    }
 } ;
 int main(){
 
