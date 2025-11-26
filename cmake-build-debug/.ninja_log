@@ -3,7 +3,12 @@
 845	955	7845808593553719	3-Queues.exe	5e8e0cb505404044
 556	653	7842528830163766	arrays.exe	41db5391c82dabc2
 878	1006	7850240925601163	4-Priority_queues.exe	b6e82525d2b22691
-0	195	7858667474843597	build.ninja	3203a8b5f99d8620
+0	195	7858731681527751	build.ninja	3203a8b5f99d8620
+3	544	7858726366873641	CMakeFiles/5-Singly_linked_lists.dir/data-structures/4-Linked_lists/singly_linked_lists/main.cpp.obj	59a30a57cdd7187e
 733	853	7844270511366251	2-Stacks.exe	8f437f026d3348fe
 788	930	7855907834023240	1-Arrays.exe	2bc28807a8d12841
-2	733	7844270510202180	CMakeFiles/2-Stacks.dir/data-structures/2-Stacks/main.cpp.obj	c758b375a18ef348
+544	645	7858726367836515	5-Singly_linked_lists.exe	31479917a020744
+1	552	7858731936766516	CMakeFiles/singly_linked_lists.dir/data-structures/Linked_Lists/singly_linked_lists/main.cpp.obj	63a3801266026603
+553	651	7858731937713349	singly_linked_lists.exe	abdf65acac7636d3
+4	534	7858732132440788	CMakeFiles/singly_linked_lists.dir/data-structures/Linked_Lists/singly_linked_lists/main.cpp.obj	63a3801266026603
+534	658	7858732133618161	singly_linked_lists.exe	abdf65acac7636d3

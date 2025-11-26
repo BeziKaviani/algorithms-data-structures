@@ -14,7 +14,7 @@
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__3-Queues_Debug
+rule CXX_COMPILER__normal_queues_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = "C:\PROGRA~1\JETBRA~1\CLion 2021.3.4\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -24,7 +24,7 @@ rule CXX_COMPILER__3-Queues_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__3-Queues_Debug
+rule CXX_EXECUTABLE_LINKER__normal_queues_Debug
   command = cmd.exe /C "$PRE_LINK && "C:\PROGRA~1\JETBRA~1\CLion 2021.3.4\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -33,7 +33,7 @@ rule CXX_EXECUTABLE_LINKER__3-Queues_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__2-Stacks_Debug
+rule CXX_COMPILER__Arrays_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = "C:\PROGRA~1\JETBRA~1\CLion 2021.3.4\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -43,7 +43,7 @@ rule CXX_COMPILER__2-Stacks_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__2-Stacks_Debug
+rule CXX_EXECUTABLE_LINKER__Arrays_Debug
   command = cmd.exe /C "$PRE_LINK && "C:\PROGRA~1\JETBRA~1\CLion 2021.3.4\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -52,7 +52,7 @@ rule CXX_EXECUTABLE_LINKER__2-Stacks_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__1-Arrays_Debug
+rule CXX_COMPILER__Stacks_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = "C:\PROGRA~1\JETBRA~1\CLion 2021.3.4\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -62,7 +62,7 @@ rule CXX_COMPILER__1-Arrays_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__1-Arrays_Debug
+rule CXX_EXECUTABLE_LINKER__Stacks_Debug
   command = cmd.exe /C "$PRE_LINK && "C:\PROGRA~1\JETBRA~1\CLion 2021.3.4\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -71,7 +71,7 @@ rule CXX_EXECUTABLE_LINKER__1-Arrays_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__5-Singly_linked_lists_Debug
+rule CXX_COMPILER__priority_queues_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = "C:\PROGRA~1\JETBRA~1\CLion 2021.3.4\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -81,7 +81,7 @@ rule CXX_COMPILER__5-Singly_linked_lists_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__5-Singly_linked_lists_Debug
+rule CXX_EXECUTABLE_LINKER__priority_queues_Debug
   command = cmd.exe /C "$PRE_LINK && "C:\PROGRA~1\JETBRA~1\CLion 2021.3.4\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -90,7 +90,7 @@ rule CXX_EXECUTABLE_LINKER__5-Singly_linked_lists_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__4-Priority_queues_Debug
+rule CXX_COMPILER__singly_linked_lists_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = "C:\PROGRA~1\JETBRA~1\CLion 2021.3.4\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -100,7 +100,7 @@ rule CXX_COMPILER__4-Priority_queues_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__4-Priority_queues_Debug
+rule CXX_EXECUTABLE_LINKER__singly_linked_lists_Debug
   command = cmd.exe /C "$PRE_LINK && "C:\PROGRA~1\JETBRA~1\CLion 2021.3.4\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT

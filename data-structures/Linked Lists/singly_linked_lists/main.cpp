@@ -16,40 +16,48 @@ struct node {
 
 //  Functions
 
-    static int size(node *first){
+    static int size(node *first) {
+
+        if (first == nullptr) {
+            return 0;
+        }
+
         int count = 0;
         node *current;
         current = first;
-        while(current != nullptr){
-            count ++;
+
+        while (current != nullptr) {
+            count++;
             current = current->next;
         }
         return count;
     }
 
-    static void add(node *&first,int value, int target, char pos = 'a'){
+    static void add(node *&first, int value, int target, char pos = 'a') {
 
-        if (target < 1){
+        if (target < 1) {
             return;
         }
 
         node *new_node;
         node *current;
-        node *prev;
-        int position = 1;
+
         new_node = new node;
         new_node->data = value;
-        current = first;
         new_node->next = nullptr;
 
 //      Empty list
-        if (first == nullptr){
+        if (first == nullptr) {
             first = new_node;
             return;
         }
 
 //          After the node
         if (pos == 'a') {
+
+            current = first;
+            int position = 1;
+
             while (current != nullptr && position < target) {
                 position++;
                 current = current->next;
@@ -63,25 +71,40 @@ struct node {
 
 //          Before the node
         else if (pos == 'b') {
+            current = first;
             if (target == 1) {
                 new_node->next = first;
                 first = new_node;
                 return;
             }
-                while (current != nullptr && position < target - 1) {
-                    position++;
-                    prev = current;
-                    current = current->next;
-                }
-                if (current != nullptr) {
-                    prev->next = new_node;
-                    new_node->next = current;
-                }
-                return;
+
+            node *prev;
+            int position = 1;
+
+            while (current != nullptr && position < target) {
+                position++;
+                prev = current;
+                current = current->next;
             }
+            if (current != nullptr) {
+                prev->next = new_node;
+                new_node->next = current;
+            }
+            return;
         }
-} ;
-int main(){
+    }
+};
+
+int main() {
+    node *head;
+    node::add(head, 10, 1, 'a');
+    cout << "List: " << head->data << endl;
+
+    node::add(head, 20, 1, 'a');
+    cout << "List: " << head->data << " -> " << head->next->data << endl;
+
+    node::add(head, 15, 2, 'b');
+    cout << "List: " << head->data << " -> " << head->next->data << " -> " << head->next->next->data << endl;
 
     return 0;
 }

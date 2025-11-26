@@ -41,169 +41,169 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/Admin/Desktop/Code$ sheet/DSA/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target 3-Queues
+# Object build statements for EXECUTABLE target normal_queues
 
 
 #############################################
-# Order-only phony target for 3-Queues
+# Order-only phony target for normal_queues
 
-build cmake_object_order_depends_target_3-Queues: phony || CMakeFiles/3-Queues.dir
+build cmake_object_order_depends_target_normal_queues: phony || CMakeFiles/normal_queues.dir
 
-build CMakeFiles/3-Queues.dir/data-structures/3-Queues/normal_queues/main.cpp.obj: CXX_COMPILER__3-Queues_Debug C$:/Users/Admin/Desktop/Code$ sheet/DSA/data-structures/3-Queues/normal_queues/main.cpp || cmake_object_order_depends_target_3-Queues
-  DEP_FILE = CMakeFiles\3-Queues.dir\data-structures\3-Queues\normal_queues\main.cpp.obj.d
+build CMakeFiles/normal_queues.dir/data-structures/Queues/normal_queues/main.cpp.obj: CXX_COMPILER__normal_queues_Debug C$:/Users/Admin/Desktop/Code$ sheet/DSA/data-structures/Queues/normal_queues/main.cpp || cmake_object_order_depends_target_normal_queues
+  DEP_FILE = CMakeFiles\normal_queues.dir\data-structures\Queues\normal_queues\main.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  OBJECT_DIR = CMakeFiles\3-Queues.dir
-  OBJECT_FILE_DIR = CMakeFiles\3-Queues.dir\data-structures\3-Queues\normal_queues
+  OBJECT_DIR = CMakeFiles\normal_queues.dir
+  OBJECT_FILE_DIR = CMakeFiles\normal_queues.dir\data-structures\Queues\normal_queues
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 3-Queues
+# Link build statements for EXECUTABLE target normal_queues
 
 
 #############################################
-# Link the executable 3-Queues.exe
+# Link the executable normal_queues.exe
 
-build 3-Queues.exe: CXX_EXECUTABLE_LINKER__3-Queues_Debug CMakeFiles/3-Queues.dir/data-structures/3-Queues/normal_queues/main.cpp.obj
+build normal_queues.exe: CXX_EXECUTABLE_LINKER__normal_queues_Debug CMakeFiles/normal_queues.dir/data-structures/Queues/normal_queues/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\3-Queues.dir
+  OBJECT_DIR = CMakeFiles\normal_queues.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = 3-Queues.exe
-  TARGET_IMPLIB = lib3-Queues.dll.a
-  TARGET_PDB = 3-Queues.exe.dbg
+  TARGET_FILE = normal_queues.exe
+  TARGET_IMPLIB = libnormal_queues.dll.a
+  TARGET_PDB = normal_queues.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 2-Stacks
+# Object build statements for EXECUTABLE target Arrays
 
 
 #############################################
-# Order-only phony target for 2-Stacks
+# Order-only phony target for Arrays
 
-build cmake_object_order_depends_target_2-Stacks: phony || CMakeFiles/2-Stacks.dir
+build cmake_object_order_depends_target_Arrays: phony || CMakeFiles/Arrays.dir
 
-build CMakeFiles/2-Stacks.dir/data-structures/2-Stacks/main.cpp.obj: CXX_COMPILER__2-Stacks_Debug C$:/Users/Admin/Desktop/Code$ sheet/DSA/data-structures/2-Stacks/main.cpp || cmake_object_order_depends_target_2-Stacks
-  DEP_FILE = CMakeFiles\2-Stacks.dir\data-structures\2-Stacks\main.cpp.obj.d
+build CMakeFiles/Arrays.dir/data-structures/Arrays/main.cpp.obj: CXX_COMPILER__Arrays_Debug C$:/Users/Admin/Desktop/Code$ sheet/DSA/data-structures/Arrays/main.cpp || cmake_object_order_depends_target_Arrays
+  DEP_FILE = CMakeFiles\Arrays.dir\data-structures\Arrays\main.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  OBJECT_DIR = CMakeFiles\2-Stacks.dir
-  OBJECT_FILE_DIR = CMakeFiles\2-Stacks.dir\data-structures\2-Stacks
+  OBJECT_DIR = CMakeFiles\Arrays.dir
+  OBJECT_FILE_DIR = CMakeFiles\Arrays.dir\data-structures\Arrays
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 2-Stacks
+# Link build statements for EXECUTABLE target Arrays
 
 
 #############################################
-# Link the executable 2-Stacks.exe
+# Link the executable Arrays.exe
 
-build 2-Stacks.exe: CXX_EXECUTABLE_LINKER__2-Stacks_Debug CMakeFiles/2-Stacks.dir/data-structures/2-Stacks/main.cpp.obj
+build Arrays.exe: CXX_EXECUTABLE_LINKER__Arrays_Debug CMakeFiles/Arrays.dir/data-structures/Arrays/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\2-Stacks.dir
+  OBJECT_DIR = CMakeFiles\Arrays.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = 2-Stacks.exe
-  TARGET_IMPLIB = lib2-Stacks.dll.a
-  TARGET_PDB = 2-Stacks.exe.dbg
+  TARGET_FILE = Arrays.exe
+  TARGET_IMPLIB = libArrays.dll.a
+  TARGET_PDB = Arrays.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 1-Arrays
+# Object build statements for EXECUTABLE target Stacks
 
 
 #############################################
-# Order-only phony target for 1-Arrays
+# Order-only phony target for Stacks
 
-build cmake_object_order_depends_target_1-Arrays: phony || CMakeFiles/1-Arrays.dir
+build cmake_object_order_depends_target_Stacks: phony || CMakeFiles/Stacks.dir
 
-build CMakeFiles/1-Arrays.dir/data-structures/1-Arrays/main.cpp.obj: CXX_COMPILER__1-Arrays_Debug C$:/Users/Admin/Desktop/Code$ sheet/DSA/data-structures/1-Arrays/main.cpp || cmake_object_order_depends_target_1-Arrays
-  DEP_FILE = CMakeFiles\1-Arrays.dir\data-structures\1-Arrays\main.cpp.obj.d
+build CMakeFiles/Stacks.dir/data-structures/Stacks/main.cpp.obj: CXX_COMPILER__Stacks_Debug C$:/Users/Admin/Desktop/Code$ sheet/DSA/data-structures/Stacks/main.cpp || cmake_object_order_depends_target_Stacks
+  DEP_FILE = CMakeFiles\Stacks.dir\data-structures\Stacks\main.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  OBJECT_DIR = CMakeFiles\1-Arrays.dir
-  OBJECT_FILE_DIR = CMakeFiles\1-Arrays.dir\data-structures\1-Arrays
+  OBJECT_DIR = CMakeFiles\Stacks.dir
+  OBJECT_FILE_DIR = CMakeFiles\Stacks.dir\data-structures\Stacks
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 1-Arrays
+# Link build statements for EXECUTABLE target Stacks
 
 
 #############################################
-# Link the executable 1-Arrays.exe
+# Link the executable Stacks.exe
 
-build 1-Arrays.exe: CXX_EXECUTABLE_LINKER__1-Arrays_Debug CMakeFiles/1-Arrays.dir/data-structures/1-Arrays/main.cpp.obj
+build Stacks.exe: CXX_EXECUTABLE_LINKER__Stacks_Debug CMakeFiles/Stacks.dir/data-structures/Stacks/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\1-Arrays.dir
+  OBJECT_DIR = CMakeFiles\Stacks.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = 1-Arrays.exe
-  TARGET_IMPLIB = lib1-Arrays.dll.a
-  TARGET_PDB = 1-Arrays.exe.dbg
+  TARGET_FILE = Stacks.exe
+  TARGET_IMPLIB = libStacks.dll.a
+  TARGET_PDB = Stacks.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 5-Singly_linked_lists
+# Object build statements for EXECUTABLE target priority_queues
 
 
 #############################################
-# Order-only phony target for 5-Singly_linked_lists
+# Order-only phony target for priority_queues
 
-build cmake_object_order_depends_target_5-Singly_linked_lists: phony || CMakeFiles/5-Singly_linked_lists.dir
+build cmake_object_order_depends_target_priority_queues: phony || CMakeFiles/priority_queues.dir
 
-build CMakeFiles/5-Singly_linked_lists.dir/data-structures/4-Linked_lists/singly_linked_lists/main.cpp.obj: CXX_COMPILER__5-Singly_linked_lists_Debug C$:/Users/Admin/Desktop/Code$ sheet/DSA/data-structures/4-Linked$ lists/singly_linked_lists/main.cpp || cmake_object_order_depends_target_5-Singly_linked_lists
-  DEP_FILE = CMakeFiles\5-Singly_linked_lists.dir\data-structures\4-Linked_lists\singly_linked_lists\main.cpp.obj.d
+build CMakeFiles/priority_queues.dir/data-structures/Queues/priority_queues/main.cpp.obj: CXX_COMPILER__priority_queues_Debug C$:/Users/Admin/Desktop/Code$ sheet/DSA/data-structures/Queues/priority_queues/main.cpp || cmake_object_order_depends_target_priority_queues
+  DEP_FILE = CMakeFiles\priority_queues.dir\data-structures\Queues\priority_queues\main.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  OBJECT_DIR = CMakeFiles\5-Singly_linked_lists.dir
-  OBJECT_FILE_DIR = CMakeFiles\5-Singly_linked_lists.dir\data-structures\4-Linked_lists\singly_linked_lists
+  OBJECT_DIR = CMakeFiles\priority_queues.dir
+  OBJECT_FILE_DIR = CMakeFiles\priority_queues.dir\data-structures\Queues\priority_queues
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 5-Singly_linked_lists
+# Link build statements for EXECUTABLE target priority_queues
 
 
 #############################################
-# Link the executable 5-Singly_linked_lists.exe
+# Link the executable priority_queues.exe
 
-build 5-Singly_linked_lists.exe: CXX_EXECUTABLE_LINKER__5-Singly_linked_lists_Debug CMakeFiles/5-Singly_linked_lists.dir/data-structures/4-Linked_lists/singly_linked_lists/main.cpp.obj
+build priority_queues.exe: CXX_EXECUTABLE_LINKER__priority_queues_Debug CMakeFiles/priority_queues.dir/data-structures/Queues/priority_queues/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\5-Singly_linked_lists.dir
+  OBJECT_DIR = CMakeFiles\priority_queues.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = 5-Singly_linked_lists.exe
-  TARGET_IMPLIB = lib5-Singly_linked_lists.dll.a
-  TARGET_PDB = 5-Singly_linked_lists.exe.dbg
+  TARGET_FILE = priority_queues.exe
+  TARGET_IMPLIB = libpriority_queues.dll.a
+  TARGET_PDB = priority_queues.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 4-Priority_queues
+# Object build statements for EXECUTABLE target singly_linked_lists
 
 
 #############################################
-# Order-only phony target for 4-Priority_queues
+# Order-only phony target for singly_linked_lists
 
-build cmake_object_order_depends_target_4-Priority_queues: phony || CMakeFiles/4-Priority_queues.dir
+build cmake_object_order_depends_target_singly_linked_lists: phony || CMakeFiles/singly_linked_lists.dir
 
-build CMakeFiles/4-Priority_queues.dir/data-structures/3-Queues/priority_queues/main.cpp.obj: CXX_COMPILER__4-Priority_queues_Debug C$:/Users/Admin/Desktop/Code$ sheet/DSA/data-structures/3-Queues/priority_queues/main.cpp || cmake_object_order_depends_target_4-Priority_queues
-  DEP_FILE = CMakeFiles\4-Priority_queues.dir\data-structures\3-Queues\priority_queues\main.cpp.obj.d
+build CMakeFiles/singly_linked_lists.dir/data-structures/Linked_Lists/singly_linked_lists/main.cpp.obj: CXX_COMPILER__singly_linked_lists_Debug C$:/Users/Admin/Desktop/Code$ sheet/DSA/data-structures/Linked$ Lists/singly_linked_lists/main.cpp || cmake_object_order_depends_target_singly_linked_lists
+  DEP_FILE = CMakeFiles\singly_linked_lists.dir\data-structures\Linked_Lists\singly_linked_lists\main.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  OBJECT_DIR = CMakeFiles\4-Priority_queues.dir
-  OBJECT_FILE_DIR = CMakeFiles\4-Priority_queues.dir\data-structures\3-Queues\priority_queues
+  OBJECT_DIR = CMakeFiles\singly_linked_lists.dir
+  OBJECT_FILE_DIR = CMakeFiles\singly_linked_lists.dir\data-structures\Linked_Lists\singly_linked_lists
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 4-Priority_queues
+# Link build statements for EXECUTABLE target singly_linked_lists
 
 
 #############################################
-# Link the executable 4-Priority_queues.exe
+# Link the executable singly_linked_lists.exe
 
-build 4-Priority_queues.exe: CXX_EXECUTABLE_LINKER__4-Priority_queues_Debug CMakeFiles/4-Priority_queues.dir/data-structures/3-Queues/priority_queues/main.cpp.obj
+build singly_linked_lists.exe: CXX_EXECUTABLE_LINKER__singly_linked_lists_Debug CMakeFiles/singly_linked_lists.dir/data-structures/Linked_Lists/singly_linked_lists/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\4-Priority_queues.dir
+  OBJECT_DIR = CMakeFiles\singly_linked_lists.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = 4-Priority_queues.exe
-  TARGET_IMPLIB = lib4-Priority_queues.dll.a
-  TARGET_PDB = 4-Priority_queues.exe.dbg
+  TARGET_FILE = singly_linked_lists.exe
+  TARGET_IMPLIB = libsingly_linked_lists.dll.a
+  TARGET_PDB = singly_linked_lists.exe.dbg
 
 
 #############################################
@@ -231,15 +231,15 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build 1-Arrays: phony 1-Arrays.exe
+build Arrays: phony Arrays.exe
 
-build 2-Stacks: phony 2-Stacks.exe
+build Stacks: phony Stacks.exe
 
-build 3-Queues: phony 3-Queues.exe
+build normal_queues: phony normal_queues.exe
 
-build 4-Priority_queues: phony 4-Priority_queues.exe
+build priority_queues: phony priority_queues.exe
 
-build 5-Singly_linked_lists: phony 5-Singly_linked_lists.exe
+build singly_linked_lists: phony singly_linked_lists.exe
 
 # =============================================================================
 # Folder targets.
@@ -249,7 +249,7 @@ build 5-Singly_linked_lists: phony 5-Singly_linked_lists.exe
 #############################################
 # Folder: C:/Users/Admin/Desktop/Code sheet/DSA/cmake-build-debug
 
-build all: phony 3-Queues.exe 2-Stacks.exe 1-Arrays.exe 5-Singly_linked_lists.exe 4-Priority_queues.exe
+build all: phony normal_queues.exe Arrays.exe Stacks.exe priority_queues.exe singly_linked_lists.exe
 
 # =============================================================================
 # Built-in targets
