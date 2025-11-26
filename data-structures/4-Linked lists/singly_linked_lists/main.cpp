@@ -28,16 +28,21 @@ struct node {
     }
 
     static void add(node *&first,int value, int target, char pos = 'a'){
+
+        if (target < 1){
+            return;
+        }
+
         node *new_node;
         node *current;
         node *prev;
-        int position = 0;
+        int position = 1;
         new_node = new node;
         new_node->data = value;
         current = first;
-        new_node->data = value;
         new_node->next = nullptr;
 
+//      Empty list
         if (first == nullptr){
             first = new_node;
             return;
@@ -59,11 +64,11 @@ struct node {
 //          Before the node
         else if (pos == 'b') {
             if (target == 1) {
-                new_node->next = first->next;
+                new_node->next = first;
                 first = new_node;
                 return;
             }
-                while (current != nullptr && position < target) {
+                while (current != nullptr && position < target - 1) {
                     position++;
                     prev = current;
                     current = current->next;

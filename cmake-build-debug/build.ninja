@@ -148,11 +148,11 @@ build 1-Arrays.exe: CXX_EXECUTABLE_LINKER__1-Arrays_Debug CMakeFiles/1-Arrays.di
 
 build cmake_object_order_depends_target_5-Singly_linked_lists: phony || CMakeFiles/5-Singly_linked_lists.dir
 
-build CMakeFiles/5-Singly_linked_lists.dir/data-structures/4-Linked_lists/main.cpp.obj: CXX_COMPILER__5-Singly_linked_lists_Debug C$:/Users/Admin/Desktop/Code$ sheet/DSA/data-structures/4-Linked$ lists/main.cpp || cmake_object_order_depends_target_5-Singly_linked_lists
-  DEP_FILE = CMakeFiles\5-Singly_linked_lists.dir\data-structures\4-Linked_lists\main.cpp.obj.d
+build CMakeFiles/5-Singly_linked_lists.dir/data-structures/4-Linked_lists/singly_linked_lists/main.cpp.obj: CXX_COMPILER__5-Singly_linked_lists_Debug C$:/Users/Admin/Desktop/Code$ sheet/DSA/data-structures/4-Linked$ lists/singly_linked_lists/main.cpp || cmake_object_order_depends_target_5-Singly_linked_lists
+  DEP_FILE = CMakeFiles\5-Singly_linked_lists.dir\data-structures\4-Linked_lists\singly_linked_lists\main.cpp.obj.d
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles\5-Singly_linked_lists.dir
-  OBJECT_FILE_DIR = CMakeFiles\5-Singly_linked_lists.dir\data-structures\4-Linked_lists
+  OBJECT_FILE_DIR = CMakeFiles\5-Singly_linked_lists.dir\data-structures\4-Linked_lists\singly_linked_lists
 
 
 # =============================================================================
@@ -162,7 +162,7 @@ build CMakeFiles/5-Singly_linked_lists.dir/data-structures/4-Linked_lists/main.c
 #############################################
 # Link the executable 5-Singly_linked_lists.exe
 
-build 5-Singly_linked_lists.exe: CXX_EXECUTABLE_LINKER__5-Singly_linked_lists_Debug CMakeFiles/5-Singly_linked_lists.dir/data-structures/4-Linked_lists/main.cpp.obj
+build 5-Singly_linked_lists.exe: CXX_EXECUTABLE_LINKER__5-Singly_linked_lists_Debug CMakeFiles/5-Singly_linked_lists.dir/data-structures/4-Linked_lists/singly_linked_lists/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\5-Singly_linked_lists.dir
