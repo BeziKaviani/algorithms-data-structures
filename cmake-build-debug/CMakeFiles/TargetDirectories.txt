@@ -1,6 +1,6 @@
 C:/Users/Admin/Desktop/Code sheet/DSA/cmake-build-debug/CMakeFiles/normal_queues.dir
-C:/Users/Admin/Desktop/Code sheet/DSA/cmake-build-debug/CMakeFiles/Arrays.dir
-C:/Users/Admin/Desktop/Code sheet/DSA/cmake-build-debug/CMakeFiles/Stacks.dir
+C:/Users/Admin/Desktop/Code sheet/DSA/cmake-build-debug/CMakeFiles/arrays.dir
+C:/Users/Admin/Desktop/Code sheet/DSA/cmake-build-debug/CMakeFiles/stacks.dir
 C:/Users/Admin/Desktop/Code sheet/DSA/cmake-build-debug/CMakeFiles/priority_queues.dir
 C:/Users/Admin/Desktop/Code sheet/DSA/cmake-build-debug/CMakeFiles/singly_linked_lists.dir
 C:/Users/Admin/Desktop/Code sheet/DSA/cmake-build-debug/CMakeFiles/edit_cache.dir

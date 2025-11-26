@@ -3,18 +3,18 @@ project(algorithms_and_data_structures)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Arrays
-        data-structures/Arrays/main.cpp)
+add_executable(arrays
+        data-structures/arrays/main.cpp)
 
-add_executable(Stacks
-        data-structures/Stacks/main.cpp)
+add_executable(stacks
+        data-structures/stacks/main.cpp)
 
 add_executable(normal_queues
-        "data-structures/Queues/normal_queues/main.cpp")
+        "data-structures/queues/normal_queues/main.cpp")
 
 add_executable(priority_queues
-        data-structures/Queues/priority_queues/main.cpp)
+        data-structures/queues/priority_queues/main.cpp)
 
 add_executable(singly_linked_lists
-        "data-structures/Linked Lists/singly_linked_lists/main.cpp")
+        "data-structures/linked lists/singly_linked_lists/main.cpp")
 
