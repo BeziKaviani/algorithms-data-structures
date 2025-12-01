@@ -16,5 +16,8 @@ add_executable(priority_queues
         data-structures/queues/priority_queues/main.cpp)
 
 add_executable(singly_linked_lists
-        "data-structures/linked lists/singly_linked_lists/main.cpp")
+        "data-structures/linked_lists/singly_linked_lists/main.cpp")
+
+add_executable(217_contain_duplicate
+        "leetcode_problems/217_contain_duplicate/main.cpp")
 

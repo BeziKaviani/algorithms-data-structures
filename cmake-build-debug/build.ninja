@@ -107,6 +107,39 @@ build arrays.exe: CXX_EXECUTABLE_LINKER__arrays_Debug CMakeFiles/arrays.dir/data
   TARGET_PDB = arrays.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 217_contain_duplicate
+
+
+#############################################
+# Order-only phony target for 217_contain_duplicate
+
+build cmake_object_order_depends_target_217_contain_duplicate: phony || CMakeFiles/217_contain_duplicate.dir
+
+build CMakeFiles/217_contain_duplicate.dir/leetcode_problems/217_contain_duplicate/main.cpp.obj: CXX_COMPILER__217_contain_duplicate_Debug C$:/Users/Admin/Desktop/Code$ sheet/DSA/leetcode_problems/217_contain_duplicate/main.cpp || cmake_object_order_depends_target_217_contain_duplicate
+  DEP_FILE = CMakeFiles\217_contain_duplicate.dir\leetcode_problems\217_contain_duplicate\main.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\217_contain_duplicate.dir
+  OBJECT_FILE_DIR = CMakeFiles\217_contain_duplicate.dir\leetcode_problems\217_contain_duplicate
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 217_contain_duplicate
+
+
+#############################################
+# Link the executable 217_contain_duplicate.exe
+
+build 217_contain_duplicate.exe: CXX_EXECUTABLE_LINKER__217_contain_duplicate_Debug CMakeFiles/217_contain_duplicate.dir/leetcode_problems/217_contain_duplicate/main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\217_contain_duplicate.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 217_contain_duplicate.exe
+  TARGET_IMPLIB = lib217_contain_duplicate.dll.a
+  TARGET_PDB = 217_contain_duplicate.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target stacks
 
 
@@ -181,7 +214,7 @@ build priority_queues.exe: CXX_EXECUTABLE_LINKER__priority_queues_Debug CMakeFil
 
 build cmake_object_order_depends_target_singly_linked_lists: phony || CMakeFiles/singly_linked_lists.dir
 
-build CMakeFiles/singly_linked_lists.dir/data-structures/linked_lists/singly_linked_lists/main.cpp.obj: CXX_COMPILER__singly_linked_lists_Debug C$:/Users/Admin/Desktop/Code$ sheet/DSA/data-structures/linked$ lists/singly_linked_lists/main.cpp || cmake_object_order_depends_target_singly_linked_lists
+build CMakeFiles/singly_linked_lists.dir/data-structures/linked_lists/singly_linked_lists/main.cpp.obj: CXX_COMPILER__singly_linked_lists_Debug C$:/Users/Admin/Desktop/Code$ sheet/DSA/data-structures/linked_lists/singly_linked_lists/main.cpp || cmake_object_order_depends_target_singly_linked_lists
   DEP_FILE = CMakeFiles\singly_linked_lists.dir\data-structures\linked_lists\singly_linked_lists\main.cpp.obj.d
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles\singly_linked_lists.dir
@@ -231,6 +264,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build 217_contain_duplicate: phony 217_contain_duplicate.exe
+
 build arrays: phony arrays.exe
 
 build normal_queues: phony normal_queues.exe
@@ -249,7 +284,7 @@ build stacks: phony stacks.exe
 #############################################
 # Folder: C:/Users/Admin/Desktop/Code sheet/DSA/cmake-build-debug
 
-build all: phony normal_queues.exe arrays.exe stacks.exe priority_queues.exe singly_linked_lists.exe
+build all: phony normal_queues.exe arrays.exe 217_contain_duplicate.exe stacks.exe priority_queues.exe singly_linked_lists.exe
 
 # =============================================================================
 # Built-in targets
