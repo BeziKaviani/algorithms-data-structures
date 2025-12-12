@@ -21,9 +21,12 @@ add_executable(priority_queues
 
 add_executable(singly_linked_lists
         "data_structures/linked_lists/singly_linked_lists/main.cpp")
+
 add_executable(normal_sets
         "data_structures/sets/normal_sets/main.cpp")
 
+add_executable(unordered_sets
+        "data_structures/sets/unordered_sets/main.cpp")
 
 # Solutions
 add_executable(217_contain_duplicate

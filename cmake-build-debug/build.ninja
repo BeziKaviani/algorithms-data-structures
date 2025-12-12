@@ -41,6 +41,39 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/Admin/Desktop/Code$ sheet/DSA/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target unordered_sets
+
+
+#############################################
+# Order-only phony target for unordered_sets
+
+build cmake_object_order_depends_target_unordered_sets: phony || CMakeFiles/unordered_sets.dir
+
+build CMakeFiles/unordered_sets.dir/data_structures/sets/unordered_sets/main.cpp.obj: CXX_COMPILER__unordered_sets_Debug C$:/Users/Admin/Desktop/Code$ sheet/DSA/data_structures/sets/unordered_sets/main.cpp || cmake_object_order_depends_target_unordered_sets
+  DEP_FILE = CMakeFiles\unordered_sets.dir\data_structures\sets\unordered_sets\main.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\unordered_sets.dir
+  OBJECT_FILE_DIR = CMakeFiles\unordered_sets.dir\data_structures\sets\unordered_sets
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target unordered_sets
+
+
+#############################################
+# Link the executable unordered_sets.exe
+
+build unordered_sets.exe: CXX_EXECUTABLE_LINKER__unordered_sets_Debug CMakeFiles/unordered_sets.dir/data_structures/sets/unordered_sets/main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\unordered_sets.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = unordered_sets.exe
+  TARGET_IMPLIB = libunordered_sets.dll.a
+  TARGET_PDB = unordered_sets.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target normal_arrays
 
 
@@ -105,45 +138,6 @@ build vectors.exe: CXX_EXECUTABLE_LINKER__vectors_Debug CMakeFiles/vectors.dir/d
   TARGET_FILE = vectors.exe
   TARGET_IMPLIB = libvectors.dll.a
   TARGET_PDB = vectors.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 217_contain_duplicate
-
-
-#############################################
-# Order-only phony target for 217_contain_duplicate
-
-build cmake_object_order_depends_target_217_contain_duplicate: phony || CMakeFiles/217_contain_duplicate.dir
-
-build CMakeFiles/217_contain_duplicate.dir/leetcode_problems/217_contain_duplicate/main.cpp.obj: CXX_COMPILER__217_contain_duplicate_Debug C$:/Users/Admin/Desktop/Code$ sheet/DSA/leetcode_problems/217_contain_duplicate/main.cpp || cmake_object_order_depends_target_217_contain_duplicate
-  DEP_FILE = CMakeFiles\217_contain_duplicate.dir\leetcode_problems\217_contain_duplicate\main.cpp.obj.d
-  FLAGS = -g -std=gnu++20
-  OBJECT_DIR = CMakeFiles\217_contain_duplicate.dir
-  OBJECT_FILE_DIR = CMakeFiles\217_contain_duplicate.dir\leetcode_problems\217_contain_duplicate
-
-build CMakeFiles/217_contain_duplicate.dir/data_structures/arrays/vectors/main.cpp.obj: CXX_COMPILER__217_contain_duplicate_Debug C$:/Users/Admin/Desktop/Code$ sheet/DSA/data_structures/arrays/vectors/main.cpp || cmake_object_order_depends_target_217_contain_duplicate
-  DEP_FILE = CMakeFiles\217_contain_duplicate.dir\data_structures\arrays\vectors\main.cpp.obj.d
-  FLAGS = -g -std=gnu++20
-  OBJECT_DIR = CMakeFiles\217_contain_duplicate.dir
-  OBJECT_FILE_DIR = CMakeFiles\217_contain_duplicate.dir\data_structures\arrays\vectors
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 217_contain_duplicate
-
-
-#############################################
-# Link the executable 217_contain_duplicate.exe
-
-build 217_contain_duplicate.exe: CXX_EXECUTABLE_LINKER__217_contain_duplicate_Debug CMakeFiles/217_contain_duplicate.dir/leetcode_problems/217_contain_duplicate/main.cpp.obj CMakeFiles/217_contain_duplicate.dir/data_structures/arrays/vectors/main.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\217_contain_duplicate.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 217_contain_duplicate.exe
-  TARGET_IMPLIB = lib217_contain_duplicate.dll.a
-  TARGET_PDB = 217_contain_duplicate.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target stacks
@@ -310,6 +304,45 @@ build singly_linked_lists.exe: CXX_EXECUTABLE_LINKER__singly_linked_lists_Debug 
   TARGET_IMPLIB = libsingly_linked_lists.dll.a
   TARGET_PDB = singly_linked_lists.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 217_contain_duplicate
+
+
+#############################################
+# Order-only phony target for 217_contain_duplicate
+
+build cmake_object_order_depends_target_217_contain_duplicate: phony || CMakeFiles/217_contain_duplicate.dir
+
+build CMakeFiles/217_contain_duplicate.dir/leetcode_problems/217_contain_duplicate/main.cpp.obj: CXX_COMPILER__217_contain_duplicate_Debug C$:/Users/Admin/Desktop/Code$ sheet/DSA/leetcode_problems/217_contain_duplicate/main.cpp || cmake_object_order_depends_target_217_contain_duplicate
+  DEP_FILE = CMakeFiles\217_contain_duplicate.dir\leetcode_problems\217_contain_duplicate\main.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\217_contain_duplicate.dir
+  OBJECT_FILE_DIR = CMakeFiles\217_contain_duplicate.dir\leetcode_problems\217_contain_duplicate
+
+build CMakeFiles/217_contain_duplicate.dir/data_structures/arrays/vectors/main.cpp.obj: CXX_COMPILER__217_contain_duplicate_Debug C$:/Users/Admin/Desktop/Code$ sheet/DSA/data_structures/arrays/vectors/main.cpp || cmake_object_order_depends_target_217_contain_duplicate
+  DEP_FILE = CMakeFiles\217_contain_duplicate.dir\data_structures\arrays\vectors\main.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\217_contain_duplicate.dir
+  OBJECT_FILE_DIR = CMakeFiles\217_contain_duplicate.dir\data_structures\arrays\vectors
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 217_contain_duplicate
+
+
+#############################################
+# Link the executable 217_contain_duplicate.exe
+
+build 217_contain_duplicate.exe: CXX_EXECUTABLE_LINKER__217_contain_duplicate_Debug CMakeFiles/217_contain_duplicate.dir/leetcode_problems/217_contain_duplicate/main.cpp.obj CMakeFiles/217_contain_duplicate.dir/data_structures/arrays/vectors/main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\217_contain_duplicate.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 217_contain_duplicate.exe
+  TARGET_IMPLIB = lib217_contain_duplicate.dll.a
+  TARGET_PDB = 217_contain_duplicate.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -350,6 +383,8 @@ build singly_linked_lists: phony singly_linked_lists.exe
 
 build stacks: phony stacks.exe
 
+build unordered_sets: phony unordered_sets.exe
+
 build vectors: phony vectors.exe
 
 # =============================================================================
@@ -360,7 +395,7 @@ build vectors: phony vectors.exe
 #############################################
 # Folder: C:/Users/Admin/Desktop/Code sheet/DSA/cmake-build-debug
 
-build all: phony normal_arrays.exe vectors.exe 217_contain_duplicate.exe stacks.exe normal_queues.exe normal_sets.exe priority_queues.exe singly_linked_lists.exe
+build all: phony unordered_sets.exe normal_arrays.exe vectors.exe stacks.exe normal_queues.exe normal_sets.exe priority_queues.exe singly_linked_lists.exe 217_contain_duplicate.exe
 
 # =============================================================================
 # Built-in targets

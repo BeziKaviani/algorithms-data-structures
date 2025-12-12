@@ -2,7 +2,7 @@
 5	787	7855907832654038	CMakeFiles/1-Arrays.dir/data-structures/1-Arrays/main.cpp.obj	213c1c967d6f9071
 845	955	7845808593553719	3-Queues.exe	5e8e0cb505404044
 878	1006	7850240925601163	4-Priority_queues.exe	b6e82525d2b22691
-0	195	7872633647963059	build.ninja	3203a8b5f99d8620
+0	195	7872645103426805	build.ninja	3203a8b5f99d8620
 3	544	7858726366873641	CMakeFiles/5-Singly_linked_lists.dir/data-structures/4-Linked_lists/singly_linked_lists/main.cpp.obj	59a30a57cdd7187e
 733	853	7844270511366251	2-Stacks.exe	8f437f026d3348fe
 6	767	7872629644504642	CMakeFiles/arrays.dir/data_structures/arrays/vectors/main.cpp.obj	ddb214a985973229
@@ -14,15 +14,5 @@
 2	898	7868217323127915	CMakeFiles/normal_sets.dir/data_structures/sets/normal_sets/main.cpp.obj	b962e92714db84b7
 899	1024	7868217324344619	normal_sets.exe	d36e05eea2bdc332
 1	812	7872629644954575	CMakeFiles/arrays.dir/data_structures/arrays/normal_arrays/main.cpp.obj	1ce21055f88b4932
-1	820	7872633368918136	CMakeFiles/vectors.dir/data_structures/arrays/vectors/main.cpp.obj	58a6309bfab4c98d
-820	929	7872633369969143	vectors.exe	de4afc92c74c4cbc
-3	819	7872637208732715	CMakeFiles/vectors.dir/data_structures/arrays/vectors/main.cpp.obj	58a6309bfab4c98d
-820	937	7872637209870267	vectors.exe	de4afc92c74c4cbc
-3	804	7872638532121738	CMakeFiles/vectors.dir/data_structures/arrays/vectors/main.cpp.obj	58a6309bfab4c98d
-804	916	7872638533202186	vectors.exe	de4afc92c74c4cbc
-2	886	7872639603813876	CMakeFiles/vectors.dir/data_structures/arrays/vectors/main.cpp.obj	58a6309bfab4c98d
-886	999	7872639604893262	vectors.exe	de4afc92c74c4cbc
-2	1069	7872643518786487	CMakeFiles/vectors.dir/data_structures/arrays/vectors/main.cpp.obj	58a6309bfab4c98d
-1069	1223	7872643520289907	vectors.exe	de4afc92c74c4cbc
 3	832	7872644072307010	CMakeFiles/vectors.dir/data_structures/arrays/vectors/main.cpp.obj	58a6309bfab4c98d
 833	951	7872644073446152	vectors.exe	de4afc92c74c4cbc
