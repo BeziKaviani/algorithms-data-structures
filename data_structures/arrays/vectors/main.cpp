@@ -27,5 +27,29 @@ int main() {
     cout<<books.at(2)<<endl;
     cout<<books.at(3)<<endl;
 
+//    Change the element value
+    books[0] = "Language Learning";
+    books.at(1) = "Computer Science";
+    books.back() = "";
+    for(string book: books){
+        cout<<book<<endl;
+    }
+//    Check if it's empty
+    cout<<books.empty();
+
+//    Add element
+    books.push_back("Political");
+    for(string book: books){
+        cout<<book<<endl;
+    }
+
+//   Remove element
+    books.pop_back();
+    for(string book: books){
+        cout<<book<<endl;
+    }
+
+//    Size of vector
+    cout<<books.size()<<endl;
     return 0;
 }
