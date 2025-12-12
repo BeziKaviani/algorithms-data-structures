@@ -41,70 +41,70 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/Admin/Desktop/Code$ sheet/DSA/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target normal_queues
+# Object build statements for EXECUTABLE target normal_arrays
 
 
 #############################################
-# Order-only phony target for normal_queues
+# Order-only phony target for normal_arrays
 
-build cmake_object_order_depends_target_normal_queues: phony || CMakeFiles/normal_queues.dir
+build cmake_object_order_depends_target_normal_arrays: phony || CMakeFiles/normal_arrays.dir
 
-build CMakeFiles/normal_queues.dir/data_structures/queues/normal_queues/main.cpp.obj: CXX_COMPILER__normal_queues_Debug C$:/Users/Admin/Desktop/Code$ sheet/DSA/data_structures/queues/normal_queues/main.cpp || cmake_object_order_depends_target_normal_queues
-  DEP_FILE = CMakeFiles\normal_queues.dir\data_structures\queues\normal_queues\main.cpp.obj.d
+build CMakeFiles/normal_arrays.dir/data_structures/arrays/normal_arrays/main.cpp.obj: CXX_COMPILER__normal_arrays_Debug C$:/Users/Admin/Desktop/Code$ sheet/DSA/data_structures/arrays/normal_arrays/main.cpp || cmake_object_order_depends_target_normal_arrays
+  DEP_FILE = CMakeFiles\normal_arrays.dir\data_structures\arrays\normal_arrays\main.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  OBJECT_DIR = CMakeFiles\normal_queues.dir
-  OBJECT_FILE_DIR = CMakeFiles\normal_queues.dir\data_structures\queues\normal_queues
+  OBJECT_DIR = CMakeFiles\normal_arrays.dir
+  OBJECT_FILE_DIR = CMakeFiles\normal_arrays.dir\data_structures\arrays\normal_arrays
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target normal_queues
+# Link build statements for EXECUTABLE target normal_arrays
 
 
 #############################################
-# Link the executable normal_queues.exe
+# Link the executable normal_arrays.exe
 
-build normal_queues.exe: CXX_EXECUTABLE_LINKER__normal_queues_Debug CMakeFiles/normal_queues.dir/data_structures/queues/normal_queues/main.cpp.obj
+build normal_arrays.exe: CXX_EXECUTABLE_LINKER__normal_arrays_Debug CMakeFiles/normal_arrays.dir/data_structures/arrays/normal_arrays/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\normal_queues.dir
+  OBJECT_DIR = CMakeFiles\normal_arrays.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = normal_queues.exe
-  TARGET_IMPLIB = libnormal_queues.dll.a
-  TARGET_PDB = normal_queues.exe.dbg
+  TARGET_FILE = normal_arrays.exe
+  TARGET_IMPLIB = libnormal_arrays.dll.a
+  TARGET_PDB = normal_arrays.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target arrays
+# Object build statements for EXECUTABLE target vectors
 
 
 #############################################
-# Order-only phony target for arrays
+# Order-only phony target for vectors
 
-build cmake_object_order_depends_target_arrays: phony || CMakeFiles/arrays.dir
+build cmake_object_order_depends_target_vectors: phony || CMakeFiles/vectors.dir
 
-build CMakeFiles/arrays.dir/data_structures/arrays/main.cpp.obj: CXX_COMPILER__arrays_Debug C$:/Users/Admin/Desktop/Code$ sheet/DSA/data_structures/arrays/main.cpp || cmake_object_order_depends_target_arrays
-  DEP_FILE = CMakeFiles\arrays.dir\data_structures\arrays\main.cpp.obj.d
+build CMakeFiles/vectors.dir/data_structures/arrays/vectors/main.cpp.obj: CXX_COMPILER__vectors_Debug C$:/Users/Admin/Desktop/Code$ sheet/DSA/data_structures/arrays/vectors/main.cpp || cmake_object_order_depends_target_vectors
+  DEP_FILE = CMakeFiles\vectors.dir\data_structures\arrays\vectors\main.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  OBJECT_DIR = CMakeFiles\arrays.dir
-  OBJECT_FILE_DIR = CMakeFiles\arrays.dir\data_structures\arrays
+  OBJECT_DIR = CMakeFiles\vectors.dir
+  OBJECT_FILE_DIR = CMakeFiles\vectors.dir\data_structures\arrays\vectors
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target arrays
+# Link build statements for EXECUTABLE target vectors
 
 
 #############################################
-# Link the executable arrays.exe
+# Link the executable vectors.exe
 
-build arrays.exe: CXX_EXECUTABLE_LINKER__arrays_Debug CMakeFiles/arrays.dir/data_structures/arrays/main.cpp.obj
+build vectors.exe: CXX_EXECUTABLE_LINKER__vectors_Debug CMakeFiles/vectors.dir/data_structures/arrays/vectors/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\arrays.dir
+  OBJECT_DIR = CMakeFiles\vectors.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = arrays.exe
-  TARGET_IMPLIB = libarrays.dll.a
-  TARGET_PDB = arrays.exe.dbg
+  TARGET_FILE = vectors.exe
+  TARGET_IMPLIB = libvectors.dll.a
+  TARGET_PDB = vectors.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 217_contain_duplicate
@@ -121,6 +121,12 @@ build CMakeFiles/217_contain_duplicate.dir/leetcode_problems/217_contain_duplica
   OBJECT_DIR = CMakeFiles\217_contain_duplicate.dir
   OBJECT_FILE_DIR = CMakeFiles\217_contain_duplicate.dir\leetcode_problems\217_contain_duplicate
 
+build CMakeFiles/217_contain_duplicate.dir/data_structures/arrays/vectors/main.cpp.obj: CXX_COMPILER__217_contain_duplicate_Debug C$:/Users/Admin/Desktop/Code$ sheet/DSA/data_structures/arrays/vectors/main.cpp || cmake_object_order_depends_target_217_contain_duplicate
+  DEP_FILE = CMakeFiles\217_contain_duplicate.dir\data_structures\arrays\vectors\main.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\217_contain_duplicate.dir
+  OBJECT_FILE_DIR = CMakeFiles\217_contain_duplicate.dir\data_structures\arrays\vectors
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 217_contain_duplicate
@@ -129,7 +135,7 @@ build CMakeFiles/217_contain_duplicate.dir/leetcode_problems/217_contain_duplica
 #############################################
 # Link the executable 217_contain_duplicate.exe
 
-build 217_contain_duplicate.exe: CXX_EXECUTABLE_LINKER__217_contain_duplicate_Debug CMakeFiles/217_contain_duplicate.dir/leetcode_problems/217_contain_duplicate/main.cpp.obj
+build 217_contain_duplicate.exe: CXX_EXECUTABLE_LINKER__217_contain_duplicate_Debug CMakeFiles/217_contain_duplicate.dir/leetcode_problems/217_contain_duplicate/main.cpp.obj CMakeFiles/217_contain_duplicate.dir/data_structures/arrays/vectors/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\217_contain_duplicate.dir
@@ -171,6 +177,39 @@ build stacks.exe: CXX_EXECUTABLE_LINKER__stacks_Debug CMakeFiles/stacks.dir/data
   TARGET_FILE = stacks.exe
   TARGET_IMPLIB = libstacks.dll.a
   TARGET_PDB = stacks.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target normal_queues
+
+
+#############################################
+# Order-only phony target for normal_queues
+
+build cmake_object_order_depends_target_normal_queues: phony || CMakeFiles/normal_queues.dir
+
+build CMakeFiles/normal_queues.dir/data_structures/queues/normal_queues/main.cpp.obj: CXX_COMPILER__normal_queues_Debug C$:/Users/Admin/Desktop/Code$ sheet/DSA/data_structures/queues/normal_queues/main.cpp || cmake_object_order_depends_target_normal_queues
+  DEP_FILE = CMakeFiles\normal_queues.dir\data_structures\queues\normal_queues\main.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\normal_queues.dir
+  OBJECT_FILE_DIR = CMakeFiles\normal_queues.dir\data_structures\queues\normal_queues
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target normal_queues
+
+
+#############################################
+# Link the executable normal_queues.exe
+
+build normal_queues.exe: CXX_EXECUTABLE_LINKER__normal_queues_Debug CMakeFiles/normal_queues.dir/data_structures/queues/normal_queues/main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\normal_queues.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = normal_queues.exe
+  TARGET_IMPLIB = libnormal_queues.dll.a
+  TARGET_PDB = normal_queues.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target normal_sets
@@ -299,7 +338,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build 217_contain_duplicate: phony 217_contain_duplicate.exe
 
-build arrays: phony arrays.exe
+build normal_arrays: phony normal_arrays.exe
 
 build normal_queues: phony normal_queues.exe
 
@@ -311,6 +350,8 @@ build singly_linked_lists: phony singly_linked_lists.exe
 
 build stacks: phony stacks.exe
 
+build vectors: phony vectors.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -319,7 +360,7 @@ build stacks: phony stacks.exe
 #############################################
 # Folder: C:/Users/Admin/Desktop/Code sheet/DSA/cmake-build-debug
 
-build all: phony normal_queues.exe arrays.exe 217_contain_duplicate.exe stacks.exe normal_sets.exe priority_queues.exe singly_linked_lists.exe
+build all: phony normal_arrays.exe vectors.exe 217_contain_duplicate.exe stacks.exe normal_queues.exe normal_sets.exe priority_queues.exe singly_linked_lists.exe
 
 # =============================================================================
 # Built-in targets

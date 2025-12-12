@@ -4,8 +4,11 @@ project(algorithms_and_data_structures)
 set(CMAKE_CXX_STANDARD 20)
 
 # Data Structures
-add_executable(arrays
-        data_structures/arrays/main.cpp)
+add_executable(normal_arrays
+        data_structures/arrays/normal_arrays/main.cpp)
+
+add_executable(vectors
+        data_structures/arrays/vectors/main.cpp)
 
 add_executable(stacks
         data_structures/stacks/main.cpp)
@@ -24,5 +27,5 @@ add_executable(normal_sets
 
 # Solutions
 add_executable(217_contain_duplicate
-        "leetcode_problems/217_contain_duplicate/main.cpp")
+        "leetcode_problems/217_contain_duplicate/main.cpp" data_structures/arrays/vectors/main.cpp)
 
