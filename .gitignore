@@ -40,6 +40,9 @@ __pycache__/
 # C extensions
 *.so
 
+cmake-build-debug
+CMakeLists.txt
+
 # Distribution / packaging
 .Python
 build/
@@ -203,5 +206,3 @@ poetry.toml
 # LSP config files
 pyrightconfig.json
 
-cmake-build-debug
-CMakeLists.txt
